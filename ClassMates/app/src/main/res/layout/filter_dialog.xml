@@ -1,0 +1,52 @@
+<LinearLayout
+    android:layout_width="200dp"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set Filter"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+    <CheckBox
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/name_fltr"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/tab_indicator_text"
+        android:text="Name " />
+    <CheckBox
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/batch_fltr"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/tab_indicator_text"
+        android:text="Batch " />
+    <CheckBox
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/profession_fltr"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/tab_indicator_text"
+        android:text="Profession " />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="done" />
+        </LinearLayout>
+

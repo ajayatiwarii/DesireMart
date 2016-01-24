@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+
+
+
+   <!-- <item
+        android:id="@+id/name_menu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        yourapp:showAsAction="never"
+        android:title="name"/>-->
+    <!--<item
+        android:id="@+id/batch_menu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        yourapp:showAsAction="never"
+        android:title="batch"/>
+
+
+    <item
+        android:id="@+id/profession_menu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        yourapp:showAsAction="never"
+        android:title="profession"/>-->
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="ifRoom|collapseActionView"
+        yourapp:showAsAction="ifRoom|collapseActionView"
+        yourapp:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="text_search"/>
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@android:drawable/arrow_down_float"
+        android:showAsAction="always"
+        yourapp:showAsAction="always"
+        android:title="title_activity_browse"/>
+
+</menu>

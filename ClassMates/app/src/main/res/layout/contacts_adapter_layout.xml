@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@android:color/darker_gray"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="9dp"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardCornerRadius="1dp"
+        card_view:cardElevation="3dp">
+
+        <RelativeLayout
+            android:id="@+id/top_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/mg_thumbnaill"
+                android:layout_width="130dp"
+                android:layout_height="105dp"
+                android:gravity="center">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/img_thumbnail"
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/a"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="0dp" />
+                 <ImageView
+                             android:id="@+id/gen"
+                             android:layout_width="25dp"
+                             android:layout_height="25dp"
+             android:src="@drawable/male"
+                             android:layout_marginLeft="10dp"
+                             android:layout_gravity="center"
+                             />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_nature"
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_toEndOf="@+id/mg_thumbnaill"
+                android:layout_toRightOf="@+id/mg_thumbnaill"
+                android:gravity="center"
+                android:text="ajaya"
+android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tv_des_nature"
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+
+
+                android:layout_toEndOf="@+id/mg_thumbnaill"
+                android:layout_toRightOf="@+id/mg_thumbnaill"
+                android:gravity="center"
+                android:text="playing cricket"
+                android:layout_below="@+id/college"
+                 />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="College"
+                android:gravity="center"
+
+                android:id="@+id/college"
+                android:layout_below="@+id/tv_nature"
+                android:layout_toRightOf="@+id/mg_thumbnaill"
+                android:layout_toEndOf="@+id/mg_thumbnaill" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+
+                android:text="New Text"
+                android:gravity="center"
+                android:id="@+id/profession_adp"
+                android:layout_below="@+id/tv_des_nature"
+                android:layout_alignLeft="@+id/tv_des_nature"
+                android:layout_alignStart="@+id/tv_des_nature" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backblue"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+            <ImageView
+
+            android:id="@+id/user_image"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+                android:background="@color/starkk"
+            android:layout_height="100dp"
+
+            />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textColor="@color/colorPrimary"
+    android:text="Set Profile Picture"
+    />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <EditText
+            android:id="@+id/college_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="25"
+            android:hint="College"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/starkk"
+            
+            />
+        />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <EditText
+            android:id="@+id/batch_add"
+            android:focusable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/starkk"
+            android:hint="Batch" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="6dp"
+
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:id="@+id/edu_frame"
+            android:layout_height="wrap_content">
+            <com.example.ajaytiwari.parselogin.utils.ContactsCompletionView
+                android:id="@+id/searchView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Education"
+                android:imeOptions="actionDone"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/starkk"
+                android:textSize="19sp"
+                android:nextFocusDown="@+id/editText"
+                android:inputType="text|textNoSuggestions|textMultiLine"
+                android:focusableInTouchMode="true" />
+        <!--<EditText
+            android:id="@+id/education"
+            android:maxLength="25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Education" />-->
+
+<ImageButton
+    android:layout_width="30dp"
+    android:background="@drawable/add_more"
+    android:id="@+id/add_edu"
+    android:layout_gravity="end"
+    android:layout_height="30dp" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:id="@+id/prof_frame"
+            android:layout_height="wrap_content">
+           <!-- <EditText
+                android:id="@+id/profession_add"
+                android:layout_width="match_parent"
+                android:maxLength="25"
+                android:layout_height="wrap_content"
+                android:hint="Profession" />-->
+            <com.example.ajaytiwari.parselogin.utils.ContactsCompletionView
+                android:id="@+id/searchView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Profession"
+                android:imeOptions="actionDone"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/starkk"
+                android:textSize="19sp"
+                android:nextFocusDown="@+id/editText"
+                android:inputType="text|textNoSuggestions|textMultiLine"
+                android:focusableInTouchMode="true" />
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:id="@+id/add_prof"
+                android:background="@drawable/add_more"
+                android:layout_gravity="end"
+                android:layout_height="30dp" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp">
+
+        <EditText
+             android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/starkk"
+            android:maxLength="10"
+            android:layout_height="wrap_content"
+            android:hint="Mob no. visible to all"
+            android:prompt="@string/batch" />
+        <EditText
+            android:id="@+id/locatn"
+           android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/starkk"
+            android:maxLength="15"
+            android:inputType="text"
+            android:layout_height="wrap_content"
+            android:hint="Location"
+             />
+
+
+        />
+
+        />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Organization"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/organisation"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorAccent"
+                android:id="@+id/govt"
+                android:layout_weight="1"
+                android:text="Govt." />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pvt"
+                android:textColor="@color/colorAccent"
+                android:layout_weight="1"
+                android:text="Pvt." />
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Can offer help in following fluid "
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/education_radio"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+
+            android:text="Education " />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/marketing_radio"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:text="Marketing" />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sales_radio"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:text="Sales" />
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/save_details"
+            android:background="@color/bg_gradient_start"
+            android:text="Save"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

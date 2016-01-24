@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#c1daf7</color>
+    <color name="colorPrimaryDark">#2c5ec1</color>
+    <color name="colorPrimary">#294586</color>
+    <color name="stark">#926cd4</color>
+    <color name="starkk">#c8deea</color>
+    <color name="broun">#c8ba3922</color>
+    <color name="green">#d83fae65</color>
+    <color name="yellow">#d8b78e28</color>
+    <color name="br">#d8817c6f</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="bg_gradient_start">#3990CA</color>
+    <color name="bg_gradient_end">#15547E</color>
+    <color name="bg_button_login">#1D394C</color>
+
+    <color name="com_parse_ui_parse_login_display_text">@android:color/white</color>
+</resources>

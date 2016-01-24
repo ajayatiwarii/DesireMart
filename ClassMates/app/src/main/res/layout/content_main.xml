@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/starkk"
+    android:layout_height="match_parent"
+    tools:context="com.atdrive.ajaytiwari.parselogin.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="70dp"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+
+        card_view:cardBackgroundColor="@color/broun"
+        card_view:cardCornerRadius="1dp"
+        card_view:cardElevation="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/ll_contact"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+           <ImageView
+               android:layout_width="60dp"
+               android:layout_height="60dp"
+               android:src="@drawable/breakfast"
+                            />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="Break Fast"
+                android:gravity="center"
+
+                android:layout_margin="1dp"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+
+        card_view:cardBackgroundColor="@color/green"
+        card_view:cardCornerRadius="1dp"
+        card_view:cardElevation="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/ll_lunch"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lunch"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="Lunch"
+                android:gravity="center"
+
+                android:layout_margin="1dp"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+
+        card_view:cardBackgroundColor="@color/yellow"
+        card_view:cardCornerRadius="1dp"
+        card_view:cardElevation="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/ll_dinner"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/dinner"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="Dinner"
+                android:gravity="center"
+
+                android:layout_margin="1dp"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+
+        card_view:cardBackgroundColor="@color/br"
+        card_view:cardCornerRadius="1dp"
+        card_view:cardElevation="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/ll_snacks"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/snacks"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="Snacks"
+                android:gravity="center"
+
+                android:layout_margin="1dp"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+   <!--  <android.support.design.widget.FloatingActionButton
+         android:id="@+id/fab"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="bottom|end"
+
+         android:layout_marginRight="30dp"
+         android:layout_marginEnd="30dp"
+         android:layout_marginBottom="11dp" />-->
+
+</LinearLayout>
